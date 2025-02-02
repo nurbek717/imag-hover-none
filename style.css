@@ -1,0 +1,21 @@
+.image-container {
+  width: 300px; /* Rasmingizning o‘lchamini moslang */
+  height: 200px;
+  background-color: #aa5555; /* Orqa fon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0; /* Rasm dastlab ko‘rinmaydi */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container:hover img {
+  opacity: 1; /* Hover bo‘lganda ko‘rinadi */
+  cursor: pointer;
+}
