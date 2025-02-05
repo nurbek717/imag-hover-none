@@ -5,6 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 12px;
+  margin: 100px auto;
 }
 
 .image-container img {
